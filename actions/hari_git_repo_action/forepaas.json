@@ -2,7 +2,7 @@
     "action": "aggregate",
     "action_id": "673f39defb224c4d86967788",
     "description": "",
-    "display_name": "hari git repo action",
+    "display_name": "hari git",
     "environment": {
         "_id": "673f39defb224c4d86967789",
         "build": null,
