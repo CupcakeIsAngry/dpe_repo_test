@@ -1,10 +1,10 @@
 {
-    "action": "aggregate",
-    "action_id": "673f39defb224c4d86967788",
+    "action": "custom",
+    "action_id": "674ed0af838100d5b646983e",
     "description": "",
-    "display_name": "hari git repo",
+    "display_name": "git repo test",
     "environment": {
-        "_id": "673f39defb224c4d86967789",
+        "_id": "674ed0af838100d5b646983f",
         "build": null,
         "concurrent_execution": false,
         "dependencies": {
@@ -19,7 +19,7 @@
             "size": 2,
             "type": "fpu-s"
         },
-        "language_version": null,
+        "language_version": "3.9",
         "linked_deployment": null,
         "log_level": "info",
         "modules": [],
@@ -39,16 +39,19 @@
     "language": "python3",
     "modules": [
         {
-            "id": "aggregate",
+            "id": "custom",
             "type": "action",
             "version": "latest"
         }
     ],
-    "name": "hari_git_repo_action",
+    "name": "git_repo_test",
     "params": {
-        "scale": [],
-        "stop_on_failure": false,
-        "timeout": "2h"
+        "content": "",
+        "dependencies": {
+            "python": {}
+        },
+        "filename": "main.py",
+        "func": "customfunc"
     },
     "tags": {
         "path": "",
