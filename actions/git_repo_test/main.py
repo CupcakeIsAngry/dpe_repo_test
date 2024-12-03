@@ -9,7 +9,7 @@ def customfunc(event):
     logger.info("Begin function customfunc")
     # do your code here
 
-    logger.info("git repo test")
+    logger.info("git repo test 2")
 
     logger.info("END function customfunc")
 
